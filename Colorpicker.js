@@ -48,15 +48,7 @@ picked = arr[randomPickedColorIndex()];
 
 targetColor.textContent = picked;
 
-for(var i=0;i<squares.length;i++)
 
-{
-
-//setting square's color one by one to palette color
-
-squares[i].style.backgroundColor=arr[i];
-
-//adding eventListener to all squares
   
   for(var i=0;i<squares.length;i++)
 
